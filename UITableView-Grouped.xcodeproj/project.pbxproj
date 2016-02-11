@@ -156,6 +156,7 @@
 		4E6694F41A838BAE007AFC70 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = Hamad;
 				TargetAttributes = {
@@ -405,6 +406,7 @@
 				4E66951D1A838BAE007AFC70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4E66951E1A838BAE007AFC70 /* Build configuration list for PBXNativeTarget "UITableView-GroupedTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +415,7 @@
 				4E6695201A838BAE007AFC70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

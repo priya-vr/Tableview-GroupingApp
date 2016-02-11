@@ -8,8 +8,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UITableViewController {
 
+    @IBOutlet var Name: UITextField!
+    @IBOutlet var Password: UITextField!
+    @IBOutlet var UserName: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +24,34 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func Button(sender: UISwitch) {
+        
+        if sender.on{
+            print("Button is ON")
+        }
+        else{
+            print("Button is OFF")
+        }
+        
+    }
 
+    @IBAction func Stepper(sender: UIStepper) {
+        print(sender.value.description)
+    }
+    @IBAction func Segment(sender: UISegmentedControl) {
+        
+        switch sender.selectedSegmentIndex{
+        case 0:
+             print("Segment equals 0")
+            break
+        case 1:
+           // prprintSegment equals 1")
+            break
+        default:
+            break
+            
+        }
+        
+    }
 }
 
