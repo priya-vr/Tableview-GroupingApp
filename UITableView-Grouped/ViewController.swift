@@ -16,7 +16,7 @@ class ViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-      //tygyuhjkjo
+//master conflict
         // Do any additional setup after loading the view, typically from a nib.
     }
 
