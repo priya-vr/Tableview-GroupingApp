@@ -17,7 +17,8 @@ class ViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
      //new comment message
-     
+     //changed for conflict
+      //this is local change
         // Do any additional setup after loading the view, typically from a nib.
     }
 
