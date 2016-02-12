@@ -21,6 +21,7 @@ class ViewController: UITableViewController {
 =======
       //develop conflict
 >>>>>>> develop
+      //next conflit
         // Do any additional setup after loading the view, typically from a nib.
     }
 
