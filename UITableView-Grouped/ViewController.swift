@@ -16,13 +16,7 @@ class ViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-<<<<<<< HEAD
-//master conflict
-=======
-      //develop conflict
->>>>>>> develop
-      //next conflit
-      //next 1 conflict
+//master comments
         // Do any additional setup after loading the view, typically from a nib.
     }
 
